@@ -8,9 +8,20 @@
 </head>
 
 <body>
-    <h1>Today is:
+    <h1>
         <%=day %>
     </h1>
+
+    <ul>
+        <li>Buy Food</li>
+        <li>Wake UP</li>
+        <li>Walk Dog</li>
+    </ul>
+
+    <form action="/" method="post">
+        <input type="text" name="newTask">
+        <button type="submit" name="submit">Add</button>
+    </form>
 </body>
 
 </html>
